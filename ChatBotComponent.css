@@ -1,0 +1,158 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  
+  .chatbot-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #f9f9f9;;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    background-color: #f9f9f9;
+  }
+  
+  .chatbot {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .chatbot-message {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .option-button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .option-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .client-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .client-table th, .client-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .client-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .client-details {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+  }
+  
+  /* ...existing styles... */
+
+.message-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .input-message {
+    flex: 1; /* Takes available space */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .send-button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .send-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* ...existing styles... */
+
+.chatbot-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px; /* Fixed width for better design */
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .client-details,
+  .addresses {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+  }
+  
+  li {
+    cursor: pointer; /* Indicate that this item is clickable */
+    padding: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  li:hover {
+    background-color: #f0f0f0; /* Highlight on hover */
+  }
+  
+  /* ...message box styles... */
